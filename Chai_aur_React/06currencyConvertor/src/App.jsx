@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { InputBox } from './components'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
+import './App.css'
 
 
 
@@ -32,16 +33,21 @@ function App() {
 
   return (
      <div
-            className="w-full h-screen flex justify-center items-center bg-cover bg-no-repeat"
+            className=" custom w-full h-screen flex justify-evenly items-center bg-cover bg-no-repeat"
             style={{
                 backgroundImage: `url('https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
             }}
         >
            
+           <div className='flex w-full justify-evenly custom'>
 
-            <div className="w-full">
-            
-                <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+           <img className='w-auto h-80 border border-gray-60 rounded-full p-5 backdrop-blur-sm bg-white/30' src='./src/assets/myPicCir.jpg'/>
+           
+          
+
+                <div className="w-full max-w-md border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+
+                  
 
                     <form
                         onSubmit={(e) => {
@@ -84,8 +90,10 @@ function App() {
                         </button>
                     </form>
                 </div>
+
             </div>
-        </div>
+           </div> 
+     
 
         
   );

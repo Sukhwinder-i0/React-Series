@@ -10,7 +10,7 @@ function App() {
     >
     <div className="flex flex-col-reverse justify-center items-center h-screen font-bold text-4xl ">
     <h1>Sukhwinder Singh</h1>
-    <img src="assets/back-side-2.jpg" alt="User Profile Picture" className="w-28 rounded-full overflow-hidden "/>
+    <img src="assets/back-side-2.jpg" alt="User" className="w-28 rounded-full overflow-hidden "/>
     </div>
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
         <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-2xl">

@@ -6,9 +6,17 @@
     display: flex;
     flex-direction:column; 
     height: 100vh;
-    width: auto;
     align-items: center;
     padding: 1rem;
+  }
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+.res-400 {
+    height: auto !important;
   }
 
 

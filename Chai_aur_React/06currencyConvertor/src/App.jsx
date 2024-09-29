@@ -42,7 +42,7 @@ function App() {
            
            <div className='flex w-full justify-evenly custom'>
 
-           <img className='w-auto h-80 border border-gray-60 rounded-full p-5 backdrop-blur-sm bg-white/30' src='public\mypic.jpg'/>
+           <img className='w-auto h-80 border border-gray-60 rounded-full p-5 backdrop-blur-sm bg-white/30' src='mypic.jpg'/>
            
           
 

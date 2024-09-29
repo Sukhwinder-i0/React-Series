@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { InputBox } from './components'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
 import './App.css'
+import '../public/mypic.jpg'
 
 
 
@@ -41,7 +42,7 @@ function App() {
            
            <div className='flex w-full justify-evenly custom'>
 
-           <img className='w-auto h-80 border border-gray-60 rounded-full p-5 backdrop-blur-sm bg-white/30' src='./src/assets/myPicCir.jpg'/>
+           <img className='w-auto h-80 border border-gray-60 rounded-full p-5 backdrop-blur-sm bg-white/30' src='public\mypic.jpg'/>
            
           
 

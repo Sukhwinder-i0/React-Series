@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { InputBox } from './components'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
 import './App.css'
-import '../public/mypic.jpg'
 
 
 
@@ -17,7 +16,9 @@ function App() {
 
   const currencyInfo = useCurrencyInfo(from)
 
-  const options = Object.keys(currencyInfo)
+  const options = Object.keys(currencyInfo)//.map(option => option.toUpperCase()); // Convert options to uppercase
+
+  
 
   const swap = () => {
     setFrom(to)
@@ -43,13 +44,7 @@ function App() {
            <div className='flex w-full justify-evenly custom'>
 
            <img className='w-auto h-80 border border-gray-60 rounded-full p-5 backdrop-blur-sm bg-white/30 res-400' src='mypic.jpg'/>
-           
-          
-
-                <div className="res-400 -full max-w-md border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
-
-                  
-
+              <div className="res-400 -full max-w-md border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                     <form
                         onSubmit={(e) => {
                             e.preventDefault();

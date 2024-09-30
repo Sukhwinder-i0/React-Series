@@ -16,7 +16,7 @@ export default function About() {
                             React development is carried out by passionate developers
                         </h2>
                         <p className="mt-6 text-gray-200">
-                        we are a passionate team of developers, designers, and strategists committed to bringing your vision to life. With years of experience in the industry, we specialize in creating innovative software solutions that cater to your unique needs.
+                        We are a passionate team of developers, designers, and strategists committed to bringing your vision to life. With years of experience in the industry, we specialize in creating innovative software solutions that cater to your unique needs.
                         </p>
                         <p className="mt-4 text-gray-200">
                         We envision a future where technology seamlessly integrates with business processes, driving innovation and success. Our goal is to be a trusted partner for companies looking to leverage technology to gain a competitive edge.

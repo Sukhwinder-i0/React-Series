@@ -32,12 +32,12 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="./src/assets/softwaredev.png" alt="image1" />
+                    <img className="w-96" src="softwaredev.png" alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="w-80 animate-pulse" src="./src/assets/softwaredev2.png" alt="image2" />
+                <img className="w-80 animate-pulse" src="softwaredev2.png" alt="image2" />
             </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium"></h1>

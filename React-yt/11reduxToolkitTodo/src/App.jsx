@@ -8,7 +8,8 @@ function App() {
 
   return (
     <>
-     <h1>Reduc Tollkit</h1>
+     <h1>ReduX ToOlkit</h1>
+     
     </>
   )
 }

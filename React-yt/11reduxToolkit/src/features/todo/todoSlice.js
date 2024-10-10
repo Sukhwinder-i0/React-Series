@@ -19,11 +19,14 @@ export const todoSlice = createSlice({
         removeTodo: (state, action) => {
             state.todos = state.todos.filter((todo) => todo.id !== action.payload)
         },
+        // updateTodo: (state, action) => {
+        //     state.todos.text = state.todos.map((todo) => todo.id == action.payload).action.payload
+        // },
        // updateTodo: () => {}
     }
 })
 
 
-export const {addTodo, removeTodo} = todoSlice.actions
+export const {addTodo, removeTodo} = todoSlice.actions   // why export separetltly: bcuz ye individually kaam aayengi
 
 export default todoSlice.reducer
